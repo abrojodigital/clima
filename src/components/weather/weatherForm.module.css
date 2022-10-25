@@ -1,0 +1,21 @@
+.container {
+  margin: 10px 0;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 18px;
+  border: 1;
+  border-color:rgb(212, 212, 212);
+  border-radius: 10px;
+}
+
+.h2 {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size:30px;
+  font-weight:bold;
+  align-self: center;
+  color: rgb(16, 34, 67);
+}

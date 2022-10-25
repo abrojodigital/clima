@@ -16,7 +16,7 @@ export default function WeatherApp() {
     document.title = "Weather | " + weather?.location?.name ?? "";
   }, [weather]);
 
-  async function loadInfo(city = "london") {
+  async function loadInfo(city = "esquel, argentina") {
     console.log(
       `${process.env.REACT_APP_URL}&key=${process.env.REACT_APP_KEY}&q=${city}`
     );
